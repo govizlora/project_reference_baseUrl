@@ -1,3 +1,3 @@
-import { theNum } from "ProjectB/const";
+import { theNum } from "const";
 
 export type NumType = typeof theNum;

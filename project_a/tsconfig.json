@@ -2,5 +2,10 @@
   "extends": "../tsconfig",
   "compilerOptions": {
     "outDir": "build"
-  }
+  },
+  "references": [
+    {
+      "path": "../project_b"
+    }
+  ]
 }
