@@ -1,0 +1,79 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "./project_b/src/utils/utils.ts": {
+        "version": "f97ccb579665c753db16ad01cf54caadbfb84addd0085b7816d1e6281dd61937",
+        "signature": "3aa56b1b04d7f67ae7904ad806160774d211328aa2a75c05e672bf218903a485",
+        "affectsGlobalScope": false
+      },
+      "./project_a/src/index.ts": {
+        "version": "20f52ed70cc616afc301ed751b12c460b5631625f3cdcb8c66d50bc18afd6dff",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./project_b/src/const.ts": {
+        "version": "75cf14fc70a999210efd0aaf4517a11009b989bea6fae6583682944e0a065f39",
+        "signature": "ddea6d9742939db79e5c57b745565d0b6d1d416a7393d354dafebdd0f64722d2",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "composite": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./project_a/src/index.ts": [
+        "./project_b/src/utils/utils.ts"
+      ]
+    },
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/typescript/lib/lib.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./project_a/src/index.ts",
+      "./project_b/src/const.ts",
+      [
+        "./project_b/src/utils/utils.ts",
+        [
+          {
+            "file": "./project_b/src/utils/utils.ts",
+            "start": 23,
+            "length": 16,
+            "messageText": "Cannot find module 'ProjectB/const' or its corresponding type declarations.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ]
+    ]
+  },
+  "version": "3.9.3"
+}
