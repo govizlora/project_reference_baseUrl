@@ -1,4 +1,4 @@
-import type { NumType } from '../../project_b/src/utils/utils'
+import type { NumType } from '../project_b/utils/utils'
 
 const a: NumType = 42;
 
