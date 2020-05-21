@@ -1,1 +1,1 @@
-export { TheNum } from 'const';
+export type { TheNum } from 'const';
