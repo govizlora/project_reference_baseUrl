@@ -4,7 +4,7 @@
   },
   "references": [
     {
-      "path": "../project_b"
+      "path": "../pkg2"
     }
   ]
 }

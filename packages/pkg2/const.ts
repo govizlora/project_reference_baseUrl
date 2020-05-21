@@ -1,1 +1,1 @@
-export const theNum = 42;
+export type TheNum = 42;

@@ -1,0 +1,1 @@
+export { TheNum } from 'const';

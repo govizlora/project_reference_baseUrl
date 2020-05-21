@@ -1,5 +1,11 @@
 {
   "name": "pkg1",
   "version": "1.0.0",
-  "main": "build/index.js"
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc -b -v"
+  },
+  "dependencies": {
+    "pkg2": "1.0.0"
+  }
 }

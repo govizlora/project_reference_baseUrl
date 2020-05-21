@@ -1,5 +1,3 @@
-import type { NumType } from '../project_b/utils/utils'
+import type { TheNum } from 'pkg2'
 
-const a: NumType = 42;
-
-console.log(a);
+export const theNum: TheNum = 42;
