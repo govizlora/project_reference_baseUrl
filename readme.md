@@ -1,4 +1,4 @@
-Reproduces an issue with TS's `project reference` + `baseUrl`.
+Reproduces an issue with TS's `project reference` + `baseUrl`. (https://github.com/microsoft/TypeScript/issues/38711)
 Command:
 ```
 yarn build
